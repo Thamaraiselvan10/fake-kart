@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Wears</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class ="container">
+            <h1 class="logo">Classic Wears</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <span>Cart (<span id="cart-count">0</span>)</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Timeless Style, Modern Comfort</h2>
+                <p>Discover our collection of classic apparel for the modern individual.</p>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-id="1" data-name="Classic White Tee" data-price="29.99">
+                        <img src="https://via.placeholder.com/400x400.png?text=White+Tee" alt="Classic White Tee">
+                        <h3>Classic White Tee</h3>
+                        <p class="price">$29.99</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="product-card" data-id="2" data-name="Denim Jeans" data-price="79.99">
+                        <img src="https://via.placeholder.com/400x400.png?text=Denim+Jeans" alt="Denim Jeans">
+                        <h3>Denim Jeans</h3>
+                        <p class="price">$79.99</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product-card" data-id="3" data-name="Leather Jacket" data-price="149.99">
+                        <img src="https://via.placeholder.com/400x400.png?text=Leather+Jacket" alt="Leather Jacket">
+                        <h3>Leather Jacket</h3>
+                        <p class="price">$149.99</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Classic Wears. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
